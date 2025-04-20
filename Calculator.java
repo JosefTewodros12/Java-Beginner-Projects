@@ -14,13 +14,12 @@ class Calculator{
     float getnumber2(){
         return number2;
     }
-    
 }
 class Childcalculator extends Calculator{
     void menu(){
-	    System.out.println("==================================");
-	    System.out.println("             CALCULATOR           ");
-	    System.out.println("==================================" + "\n");
+	System.out.println("==================================");
+	System.out.println("             CALCULATOR           ");
+	System.out.println("==================================" + "\n");
         System.out.println("Choose an operation: ");
         System.out.println(" 1. + (Addition)");
         System.out.println(" 2. - (Subtraction)");
@@ -28,7 +27,7 @@ class Childcalculator extends Calculator{
         System.out.println(" 4. / (Division)");
         System.out.println(" 5. e/E (Exit)");
         
-	    System.out.println("-----------------------------------\n");
+	System.out.println("-----------------------------------\n");
     }
     void display(char ope){
         
@@ -51,8 +50,7 @@ class Childcalculator extends Calculator{
         
         System.out.println("\n\u001B[32mResult: "+ result + "\n\u001B[0m");
     }
-
-    }
+}
 public class Main
 {
 	public static void main(String[] args) {
